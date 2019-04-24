@@ -15,6 +15,9 @@
 		29852FCC21CD81640028EF9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29852FCB21CD81640028EF9B /* main.m */; };
 		29852FD621CD81640028EF9B /* DJISupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29852FD521CD81640028EF9B /* DJISupportTests.m */; };
 		29852FE121CD81640028EF9B /* DJISupportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29852FE021CD81640028EF9B /* DJISupportUITests.m */; };
+		3448E56559C68C6D46979B64 /* libPods-DJISupportTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4AD9FF599E61151296CDE1 /* libPods-DJISupportTests.a */; };
+		3CC61D4411750CF76641843F /* libPods-DJISupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 308B40A1FA1DEB036AB49BEA /* libPods-DJISupport.a */; };
+		9242C365C0A08B0103FB7B15 /* libPods-DJISupportUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9093A50C5070BF33E341A4F4 /* libPods-DJISupportUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F3FAB182E75AF9D4394D3D /* Pods-DJISupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISupport.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISupport/Pods-DJISupport.release.xcconfig"; sourceTree = "<group>"; };
+		15978B9E756B48A771823D6E /* Pods-DJISupportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISupportUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISupportUITests/Pods-DJISupportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		243508AFCD7894C2FED4B3CB /* Pods-DJISupportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISupportUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISupportUITests/Pods-DJISupportUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		29852FB921CD81630028EF9B /* DJISupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJISupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29852FBC21CD81630028EF9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29852FBD21CD81630028EF9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		29852FDC21CD81640028EF9B /* DJISupportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJISupportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29852FE021CD81640028EF9B /* DJISupportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJISupportUITests.m; sourceTree = "<group>"; };
 		29852FE221CD81640028EF9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D3A07E21D1830900FED360 /* NetworkUrls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUrls.h; sourceTree = "<group>"; };
+		308B40A1FA1DEB036AB49BEA /* libPods-DJISupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJISupport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F0D938AC451137F4E3507 /* Pods-DJISupportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISupportTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJISupportTests/Pods-DJISupportTests.release.xcconfig"; sourceTree = "<group>"; };
+		9093A50C5070BF33E341A4F4 /* libPods-DJISupportUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJISupportUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4AD9FF599E61151296CDE1 /* libPods-DJISupportTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJISupportTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65472CA1E54576391A052C4 /* Pods-DJISupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISupport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISupport/Pods-DJISupport.debug.xcconfig"; sourceTree = "<group>"; };
+		C6CF7B5C24066CD66BA77A21 /* Pods-DJISupportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJISupportTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJISupportTests/Pods-DJISupportTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC61D4411750CF76641843F /* libPods-DJISupport.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3448E56559C68C6D46979B64 /* libPods-DJISupportTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9242C365C0A08B0103FB7B15 /* libPods-DJISupportUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +101,8 @@
 				29852FD421CD81640028EF9B /* DJISupportTests */,
 				29852FDF21CD81640028EF9B /* DJISupportUITests */,
 				29852FBA21CD81630028EF9B /* Products */,
+				9C0CC24CFD878A822D5430CE /* Pods */,
+				E9C455A3AB37ABE5BEC79BEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +128,7 @@
 				29852FC721CD81640028EF9B /* LaunchScreen.storyboard */,
 				29852FCA21CD81640028EF9B /* Info.plist */,
 				29852FCB21CD81640028EF9B /* main.m */,
+				29D3A07E21D1830900FED360 /* NetworkUrls.h */,
 			);
 			path = DJISupport;
 			sourceTree = "<group>";
@@ -132,6 +151,29 @@
 			path = DJISupportUITests;
 			sourceTree = "<group>";
 		};
+		9C0CC24CFD878A822D5430CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C65472CA1E54576391A052C4 /* Pods-DJISupport.debug.xcconfig */,
+				11F3FAB182E75AF9D4394D3D /* Pods-DJISupport.release.xcconfig */,
+				C6CF7B5C24066CD66BA77A21 /* Pods-DJISupportTests.debug.xcconfig */,
+				874F0D938AC451137F4E3507 /* Pods-DJISupportTests.release.xcconfig */,
+				243508AFCD7894C2FED4B3CB /* Pods-DJISupportUITests.debug.xcconfig */,
+				15978B9E756B48A771823D6E /* Pods-DJISupportUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9C455A3AB37ABE5BEC79BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308B40A1FA1DEB036AB49BEA /* libPods-DJISupport.a */,
+				BA4AD9FF599E61151296CDE1 /* libPods-DJISupportTests.a */,
+				9093A50C5070BF33E341A4F4 /* libPods-DJISupportUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29852FE521CD81640028EF9B /* Build configuration list for PBXNativeTarget "DJISupport" */;
 			buildPhases = (
+				C7D5B5BDD186FEE3A87EE038 /* [CP] Check Pods Manifest.lock */,
 				29852FB521CD81630028EF9B /* Sources */,
 				29852FB621CD81630028EF9B /* Frameworks */,
 				29852FB721CD81630028EF9B /* Resources */,
@@ -156,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29852FE821CD81640028EF9B /* Build configuration list for PBXNativeTarget "DJISupportTests" */;
 			buildPhases = (
+				0FF478E9701163EAB0EB9832 /* [CP] Check Pods Manifest.lock */,
 				29852FCD21CD81640028EF9B /* Sources */,
 				29852FCE21CD81640028EF9B /* Frameworks */,
 				29852FCF21CD81640028EF9B /* Resources */,
@@ -174,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29852FEB21CD81640028EF9B /* Build configuration list for PBXNativeTarget "DJISupportUITests" */;
 			buildPhases = (
+				BA5A25057FA56DCA4E94F4AA /* [CP] Check Pods Manifest.lock */,
 				29852FD821CD81640028EF9B /* Sources */,
 				29852FD921CD81640028EF9B /* Frameworks */,
 				29852FDA21CD81640028EF9B /* Resources */,
@@ -256,6 +301,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF478E9701163EAB0EB9832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJISupportTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5A25057FA56DCA4E94F4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJISupportUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D5B5BDD186FEE3A87EE038 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJISupport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29852FB521CD81630028EF9B /* Sources */ = {
@@ -433,38 +547,49 @@
 		};
 		29852FE621CD81640028EF9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65472CA1E54576391A052C4 /* Pods-DJISupport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
 				INFOPLIST_FILE = DJISupport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.DJISupport;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.DJISupportXXX1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		29852FE721CD81640028EF9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F3FAB182E75AF9D4394D3D /* Pods-DJISupport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FP6GM3TE;
 				INFOPLIST_FILE = DJISupport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.DJISupport;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangguan.DJISupportXXX1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		29852FE921CD81640028EF9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CF7B5C24066CD66BA77A21 /* Pods-DJISupportTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +608,7 @@
 		};
 		29852FEA21CD81640028EF9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874F0D938AC451137F4E3507 /* Pods-DJISupportTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +627,7 @@
 		};
 		29852FEC21CD81640028EF9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243508AFCD7894C2FED4B3CB /* Pods-DJISupportUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DJISupportUITests/Info.plist;
@@ -518,6 +645,7 @@
 		};
 		29852FED21CD81640028EF9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15978B9E756B48A771823D6E /* Pods-DJISupportUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DJISupportUITests/Info.plist;
